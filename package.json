@@ -10,8 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.11.5",
     "@astrojs/check": "^0.8.1",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.11.5",
     "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@unocss/preset-uno": "^0.61.3",
+    "@unocss/preset-web-fonts": "^0.61.3",
+    "@unocss/reset": "^0.61.3",
+    "unocss": "^0.61.3"
   }
 }
