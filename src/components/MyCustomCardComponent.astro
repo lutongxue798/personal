@@ -10,5 +10,5 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/hobby/*
 if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
 ---
 <div class="card">
-    <Image  src={images[imagePath]()}  alt=1 class='w-50 h-50 rd-1' />
+    <img  src={images[imagePath]()}  alt=1 class='w-50 h-50 rd-1' />
 </div>
